@@ -1,0 +1,20 @@
+.input {
+    background-color: #fff;
+    color: #000;
+    margin: 10px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #000;
+    transition: all 0.2s;
+}
+
+.input:hover {
+    background-color: grey;
+    color: #fff;
+}
+
+.input:active {
+    background-color: yellow;
+    color: #000;
+    box-shadow: 4px 4px 8px 0px grey;
+}
